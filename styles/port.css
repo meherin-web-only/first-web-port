@@ -28,14 +28,15 @@ header{
 }
 /* bg image header */
 .header{
-    background-image: url(../images/developer.png), url(../images/header_bg.png)
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 /* nav style */
 nav{
-    display: flex;
+    display:flex;
     align-items: center;
-    justify-content: space-between;
+   justify-content: space-between;
     margin: 0px 200px;
 }
 .nav-title{
@@ -73,6 +74,7 @@ nav li a{
 }
 .banner-details{
     font-size: 18px;
+    font-weight: 400;
 }
 .banner-man{
     width: 580px;
